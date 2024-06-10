@@ -75,24 +75,19 @@ class Entities:
             8. computed_compass_angle - float, compass angle after running image processing
             9. computed_geometry - GeoJSON Point, location after running image processing
             10. computed_rotation - enum, corrected orientation of the image
-            11. creator - the username and user ID who owns and uploaded the image
-            12. exif_orientation - enum, orientation of the camera as given by the exif tag
+            11. exif_orientation - enum, orientation of the camera as given by the exif tag
                 (see: https://sylvana.net/jpegcrop/exif_orientation.html)
-            13. geometry - GeoJSON Point geometry
-            14. height - int, height of the original image uploaded
-            15. is_pano - boolean, a true or false indicator for whether an image is 360 degree panorama
-            16. make - string, the manufacturer name of the camera device
-            17. model - string, the model or product series name of the camera device
-            18. thumb_256_url - string, URL to the 256px wide thumbnail
-            19. thumb_1024_url - string, URL to the 1024px wide thumbnail
-            20. thumb_2048_url - string, URL to the 2048px wide thumbnail
-            21. thumb_original_url - string, URL to the original wide thumbnail
-            22. merge_cc - int, id of the connected component of images that were aligned together
-            23. mesh - { id: string, url: string } - URL to the mesh
-            24. quality_score - float, how good the image is (experimental)
-            25. sequence - string, ID of the sequence
-            26. sfm_cluster - { id: string, url: string } - URL to the point cloud
-            27. width - int, width of the original image uploaded
+            12. geometry - GeoJSON Point geometry
+            13. height - int, height of the original image uploaded
+            14. thumb_256_url - string, URL to the 256px wide thumbnail
+            15. thumb_1024_url - string, URL to the 1024px wide thumbnail
+            16. thumb_2048_url - string, URL to the 2048px wide thumbnail
+            17. merge_cc - int, id of the connected component of images that were aligned together
+            18. mesh - { id: string, url: string } - URL to the mesh
+            19. quality_score - float, how good the image is (experimental)
+            20. sequence - string, ID of the sequence
+            21. sfm_cluster - { id: string, url: string } - URL to the point cloud
+            22. width - int, width of the original image uploaded
         """
 
         fields = Entities.__field_validity(
@@ -132,24 +127,19 @@ class Entities:
             8. computed_compass_angle - float, compass angle after running image processing
             9. computed_geometry - GeoJSON Point, location after running image processing
             10. computed_rotation - enum, corrected orientation of the image
-            11. creator - the username and user ID who owns and uploaded the image
-            12. exif_orientation - enum, orientation of the camera as given by the exif tag
+            11. exif_orientation - enum, orientation of the camera as given by the exif tag
                 (see: https://sylvana.net/jpegcrop/exif_orientation.html)
-            13. geometry - GeoJSON Point geometry
-            14. height - int, height of the original image uploaded
-            15. is_pano - boolean, a true or false indicator for whether an image is 360 degree panorama
-            16. make - string, the manufacturer name of the camera device
-            17. model - string, the model or product series name of the camera device
-            18. thumb_256_url - string, URL to the 256px wide thumbnail
-            19. thumb_1024_url - string, URL to the 1024px wide thumbnail
-            20. thumb_2048_url - string, URL to the 2048px wide thumbnail
-            21. thumb_original_url - string, URL to the original wide thumbnail
-            22. merge_cc - int, id of the connected component of images that were aligned together
-            23. mesh - { id: string, url: string } - URL to the mesh
-            24. quality_score - float, how good the image is (experimental)
-            25. sequence - string, ID of the sequence
-            26. sfm_cluster - { id: string, url: string } - URL to the point cloud
-            27. width - int, width of the original image uploaded
+            12. geometry - GeoJSON Point geometry
+            13. height - int, height of the original image uploaded
+            14. thumb_256_url - string, URL to the 256px wide thumbnail
+            15. thumb_1024_url - string, URL to the 1024px wide thumbnail
+            16. thumb_2048_url - string, URL to the 2048px wide thumbnail
+            17. merge_cc - int, id of the connected component of images that were aligned together
+            18. mesh - { id: string, url: string } - URL to the mesh
+            19. quality_score - float, how good the image is (experimental)
+            20. sequence - string, ID of the sequence
+            21. sfm_cluster - { id: string, url: string } - URL to the point cloud
+            22. width - int, width of the original image uploaded
 
         Raises::
 
@@ -383,17 +373,12 @@ class Entities:
             "computed_compass_angle",
             "computed_geometry",
             "computed_rotation",
-            "creator",
             "exif_orientation",
             "geometry",
             "height",
-            "is_pano",
-            "make",
-            "model",
             "thumb_256_url",
             "thumb_1024_url",
             "thumb_2048_url",
-            "thumb_original_url",
             "merge_cc",
             "mesh",
             "quality_score",
